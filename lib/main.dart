@@ -10,15 +10,6 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  Widget generateContainer() {
-    return Container(
-      margin: EdgeInsets.all(20),
-      width: 50,
-      height: 50,
-      color: Colors.blue,
-    );
-  }
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
